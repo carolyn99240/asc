@@ -301,9 +301,9 @@ setEventCallback(eventRegex.commandsRegex.list, eventRegex.commandsRegexNoName.l
 });
 
 async function createTelegraphPage(content: any) {
-  return ph.createPage(constants.TELEGRAPH_TOKEN, 'Sledger Cloud Search', content, {
+  return ph.createPage(constants.TELEGRAPH_TOKEN, 'SledgerCloudSearch', content, {
     return_content: true,
-    author_name: 'Sledger Cloud',
+    author_name: 'SledgerCloud',
     author_url: '#'
   });
 }
